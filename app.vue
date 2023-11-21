@@ -12,6 +12,7 @@
     <CustomersFeedback />
     <BlogPosts />
     <Footer />
+    <!-- <CardShow /> -->
   </div>
 </template>
 
@@ -28,30 +29,27 @@ import Meetourteam from '@/components/Meetourteam.vue'
 import CustomersFeedback from '@/components/CustomersFeedback.vue'
 import BlogPosts from '@/components/BlogPosts.vue'
 import Footer from '@/components/Footer.vue'
-// import '@/assets/js/main.js'
+//import CardShow from '@/components/CardShow.vue'
 
 export default { 
   components: {
-     Navbar,
-     Banner,
-     TrustCompanies,
-     Section1,
-     Section2,
-     FreeTrial,
-     Features,
-     OurCourses,
-     Meetourteam,
-     CustomersFeedback,
-     BlogPosts,
-     Footer
+    Navbar,
+    Banner,
+    TrustCompanies,
+    Section1,
+    Section2,
+    FreeTrial,
+    Features,
+    OurCourses,
+    Meetourteam,
+    CustomersFeedback,
+    BlogPosts,
+    Footer
+    //CardShow,
   }
-  // asserts:{
-  //   code
-  // }
+
 }
 </script>
-
-<!-- mainjs -->
   
 
 <style>

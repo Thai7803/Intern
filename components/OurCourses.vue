@@ -11,6 +11,11 @@
                 <p class="text-lg mb-5 font-light md:text-xl">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
             </div>
             <!-- cards -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+
+              </div>
+            </div>
             <div class="grid grid-cols-2 gap-2 px-1 pb-28 md:px-36 md:grid-cols-4 md:gap-4">
                 <div v-for="ourcourse in ourcourses" :key="ourcourse._id" class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden w-40 md:w-auto">
                     <img class="h-auto md:w-full" src="../assets/img/course image.png" alt="Card image">
@@ -114,6 +119,7 @@ export default {
                     description: 'Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ...',
                     price: '16.58'
                 }
+                
             ]
             
         }
